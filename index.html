@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Food</title>
+    <!-- bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class=" container-fluid model-section d-none">
+        <div class=" model row justify-content-center align-items-center">
+            
+            <div class=" p-3 model-content col-10 rounded-4 positoin-relative">
+                <button class="model-close-btn">close</button>
+                <div class="col-12 rounded-4 d-flex">
+                    <div class="col-4 p-2">
+                        <div class="sticky-top">
+                            <div class="model-frame rounded-2 col-10  ">
+                                <img src="" alt="img">
+                            </div>
+                            <h4 class="text-uppercase pt-2 model-meal-name">name here</h4>
+                        </div>
+                    </div>
+                    <div class="col-4 p-2">
+                        <div>
+                            <h4 class="text-center text-uppercase">Ingridiants</h4>
+                            <div class="items-ingridiants text-uppercase fw-semibold">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 p-2">
+                        <div class="">
+                            <h4 class="text-center text-uppercase">Measure</h4>
+                            <div class="items-measure text-uppercase fw-semibold">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-uppercase border-top border-4 ">
+                    <h3 >Instructions :-</h3>
+                    <p class="instruction"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+      <nav class="bg-black text-white p-3 align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="logo col-2">
+              <h1 class="fw-bold">Food.</h1>
+            </div>
+            <ul class="list-unstyled d-flex gap-4 col-6 m-0 align-items-center text-uppercase fw-bold navigation-link">
+              <li>Popular</li>
+              <li>list</li>
+              <li>Starter</li>
+              <li>Breakfast</li>
+              <li>Seafood</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+           <section class="mt-5 craving">
+        <div class="container">
+          <div class="row mb-2">
+            <h2 class="text-uppercase">What We're Craving</h2>
+          </div>
+          <div class="row craving-row"></div>
+        </div>
+      </section>
+      <section class="explore pt-5">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-uppercase">Explore More</h2>
+          </div>
+          <div class="row mt-4 explore-more-row"></div>
+        </div>
+      </section>
+      <section class="mt-5 mb-5 favorite">
+        <div class="container">
+          <div class="row">
+            <h2 class="text-uppercase mb-4">Fan Favorites</h2>
+          </div>
+          <div class="row favorites-recipe-row row-gap-4"></div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="bg-dark text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row gy-4">
+   <!-- about -->
+      <div class="col-md-4">
+        <h4 class="fw-bold text-uppercase mb-3">Food.</h4>
+        <p class="text-white-50">
+          Discover new recipes, explore cuisines, and cook like a pro. Powered by <strong>TheMealDB API</strong>.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <h5 class="text-uppercase fw-semibold mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white-50 text-decoration-none d-block mb-2">Home</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none d-block mb-2">Explore</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none d-block mb-2">Favorites</a></li>
+          <li><a href="#" class="text-white-50 text-decoration-none d-block">Contact</a></li>
+        </ul>
+      </div>
+
+  
+      <div class="col-md-4">
+        <h5 class="text-uppercase fw-semibold mb-3">Stay Updated</h5>
+        <form class="d-flex mb-3">
+          <input type="email" class="form-control me-2" placeholder="Enter your email" />
+          <div class="btn btn-warning text-dark fw-semibold" type="submit">Subscribe</div>
+        </form>
+        <div>
+          <a href="#" class="text-white fs-5 me-3"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white fs-5 me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white fs-5 me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white fs-5"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- rights -->
+    <hr class="border-secondary my-4" />
+    <div class="text-center text-white-50">
+      <p class="mb-0">&copy; 2025 jenish. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
