@@ -1,11 +1,10 @@
-🔍 Overview
+**🔍 Overview**
 
 Food Explorer is a responsive web app that lets users explore meal categories, discover random dishes, and view detailed recipes — including ingredients, measurements, and cooking instructions — all fetched dynamically from an API.
-
 Built with HTML, CSS, JS, and Bootstrap for layout and responsiveness.
 
-🚀 Features
-
+**🚀 Features
+**
 Explore More Section: Displays multiple food categories dynamically.
 
 Random Recipes Section: Loads 12 random dishes into a favorites section.
@@ -16,7 +15,7 @@ Recipe Modal: Shows full details of selected dishes, including ingredients, meas
 
 Interactive UI: Clickable titles open detailed modals with smooth toggling.
 
-🧠 Tech Stack
+**🧠 Tech Stack**
 
 Frontend: HTML, CSS, Bootstrap 5, JavaScript (Fetch API)
 
@@ -24,7 +23,7 @@ API Used: Custom recipe API (no branding used in project)
 
 Author: Jenish
 
-⚙️ How It Works
+**⚙️ How It Works**
 
 Fetches data from an open meal API using fetch().
 
@@ -34,13 +33,15 @@ Click events open a model (popup) with complete recipe info.
 
 Uses event delegation to handle user interactions efficiently.
 
-🧩 Key JS Functions
+**
+🧩 Key JS Functions**
 Function	Description
 getExploreItems()	Loads meal categories into the "Explore More" section.
 getRandom()	Fetches and displays random meals.
 renderModel(mealName)	Opens modal with full recipe details.
 getInfo(name)	Fetches recipe data for a specific meal.
-📸 UI Sections
+
+**📸 UI Sections**
 
 Explore More Row: Rounded category images
 
