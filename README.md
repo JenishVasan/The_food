@@ -17,7 +17,7 @@ CSS3 / Bootstrap 5 – Styling and responsive layout
 JavaScript (ES6) – Core functionality and DOM manipulation
 Fetch API – Real-time data fetching
 
-##**💡 How It Works**
+<h2>💡 How It Works </h2>
 
 Fetches random and category-based meals using API calls.
 
@@ -27,6 +27,6 @@ Clicking on any recipe opens a modal with full instructions.
 
 Modal displays ingredients, measurements, and steps neatly.
 
-##**👨‍💻 Author**
+<h2>👨‍💻 Author</h2>
 
 Developed by Jenish – Passionate about building interactive web apps, clean UI, and smooth user experiences.
