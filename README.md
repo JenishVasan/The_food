@@ -10,7 +10,7 @@ A dynamic JavaScript-based web app where users can explore meal categories, disc
 🎨 Bootstrap Responsive Design – Clean, modern, and mobile-friendly UI.
 🧭 Smooth Data Rendering – Real-time fetching using Fetch API with error handling.
 
-##🧠 Tech Stack
+<h2**>🚀 Features**</h2>
 
 HTML5 – Structure
 CSS3 / Bootstrap 5 – Styling and responsive layout
