@@ -1,6 +1,6 @@
 A dynamic JavaScript-based web app where users can explore meal categories, discover random recipes, and view complete cooking instructions in an interactive modal. It’s designed for smooth UI experience and powered by live API data fetching.
 
-##**🚀 Features**
+<h1>🍽️ Food Explorer</h1>
 
 🍱 Explore Meal Categories – Displays multiple cuisines dynamically.
 🎲 Random Recipe Generator – Fetches and displays random dishes in real time.
